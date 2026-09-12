@@ -1,0 +1,11 @@
+class car:
+    def __init__(self, speed):
+        self.speed = speed
+    def find_distance(self, time):
+        return self.speed * time
+
+time = [6, 10, 15]
+my_car = car(70)
+for t in time:
+    distance = my_car.find_distance(t)
+    print (f"in {t} hours the car will travel {distance}  miles")
