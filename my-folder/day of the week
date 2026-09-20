@@ -1,0 +1,20 @@
+#this first line will allow me to store the users integer input as "day_of_the_week"
+day_of_the_week = int(input("enter day of week 1-7: "))
+#the if/elif statments will take the users input and print the day of the week
+if day_of_the_week == 1:
+    print ("the day of the week is currently monday")
+elif day_of_the_week ==2:
+    print ("the day of the week is currently tuesday")
+elif day_of_the_week == 3:
+    print("the day of the week is currently wednesday")
+elif day_of_the_week == 4:
+    print("the day of the week is currently thursday")
+elif day_of_the_week == 5:
+    print("the day of the week is currently friday")
+elif day_of_the_week == 6:
+    print("the day of the week is currently saturday")
+elif day_of_the_week== 7:
+    print("the day of the week is currently sunday")
+#this else statment prevents any improper integer inputs
+else:
+    print("input not applicable. please select a number between 1 and 7")
